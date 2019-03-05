@@ -1,5 +1,6 @@
 
 ##Introduction
+
 This is a demo of non-negative matrix factorization. It showcases how the NMF works on a random dataset and aims to enhance the understanding of the method.
 
 First imports:
@@ -45,6 +46,7 @@ print('Components are:\n{}'.format(features))
     
 
 ###Components
+
 The components contain information about the original features. Each component represents some features. Let us annotate the component and look at them.
 
 
@@ -61,6 +63,7 @@ print(comp_df)
 First component mainly tells about feature 1 and feature 4. Second component highlights feature 2 and feature 3.
 
 ###Transformed samples
+
 Each row of transformed matrix relates to one samples in the original data and columns determin the amount by which the sample is influenced by each component. Let us annotate them and looke at them.
 
 
